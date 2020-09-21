@@ -1,1 +1,1 @@
-
+ordenaMerge: El algoritmo merge sort, resulta en una complejidad O(n log(n)), este se da debido a que en el momento de que este comienza, existe una iteración que lo recorre, pero no decide hacer cada comparación, sino que solamente hace las comparaciones necesarias simplificando los pasos a realizar por el mismo, dividiendo arreglos dependiendo la condición que se de para el ordenamiento.
