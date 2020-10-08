@@ -1,3 +1,9 @@
+/*
+ * Archivo: sorts.h
+ *  Creado el: 07/10/2020
+ *  Autor: Jesùs Ugalde Reséndiz
+ *  Matería: TC1031
+ */
 #ifndef SORTS_H_INCLUDED
 #define SORTS_H_INCLUDED
 
@@ -39,13 +45,13 @@ int busqBinaria(std::vector<T> &v, int num) {
 	int low = 0;
 	int high = v.size() - 1;
 
-	while (low <= high) {
-		mid = (low + high) / 2;
+	while (low<=high) {
+		mid = (low+high)/2;
 		if (num == v[mid].getMatricula()) {
 			return mid;
-		} else if (num <= v[mid].getMatricula()) {
-			high = mid - 1;
-		} else if (num >= v[mid].getMatricula()) {
+		} else if (num<=v[mid].getMatricula()) {
+			high = mid-1;
+		} else if (num>=v[mid].getMatricula()) {
 			low = mid + 1;
 		}
 	}
