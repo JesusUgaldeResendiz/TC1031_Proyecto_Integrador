@@ -4,7 +4,7 @@
 
 Creado el: 07/10/2020
 
-Autor: Jesùs Ugalde Reséndiz
+Autor: Jesús Ugalde Reséndiz
 
 Lenguaje: C++
 
