@@ -1,4 +1,5 @@
 **ACTIVIDAD INTEGRAL 2. - ESTRUCTURA DE DATOS LINEALES**
+
 *Este trabajo consiste en la detección del archivo en formato de logs "registros.txt", en el cual se han introducido datos desordenados de personas relacionadas al Tec de Monterrey.*
 
 Creado el: 07/10/2020
