@@ -1,5 +1,5 @@
 /*
- * Archivo: lib.h
+ * Archivo: principales.h
  *  Creado el: 07/10/2020
  *  Autor: Jesùs Ugalde Reséndiz
  *  Matería: TC1031
