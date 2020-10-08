@@ -2,10 +2,13 @@
 
 *Este trabajo consiste en la detección del archivo en formato de logs "registros.txt", en el cual se han introducido datos desordenados de personas relacionadas al Tec de Monterrey.*
 
-Creado el: 07/10/2020\n
-Autor: Jesùs Ugalde Reséndiz\n
-Lenguaje: C++\n
-Matería: TC1031\n
+Creado el: 07/10/2020
+
+Autor: Jesùs Ugalde Reséndiz
+
+Lenguaje: C++
+
+Matería: TC1031
 
 **ANALISIS DE COMPLEJIDAD POR ARCHIVO/ALGORITMO**
 
