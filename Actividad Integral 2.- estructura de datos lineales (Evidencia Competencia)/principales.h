@@ -1,3 +1,9 @@
+/*
+ * Archivo: lib.h
+ *  Creado el: 07/10/2020
+ *  Autor: Jesùs Ugalde Reséndiz
+ *  Matería: TC1031
+ */
 #ifndef PRINCIPALES_H_INCLUDED
 #define PRINCIPALES_H_INCLUDED
 
