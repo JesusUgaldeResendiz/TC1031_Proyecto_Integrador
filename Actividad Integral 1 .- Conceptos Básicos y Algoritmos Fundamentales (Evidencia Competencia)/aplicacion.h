@@ -79,16 +79,16 @@ void principal(){
 		    break;
 		case 2:
 		    cout<<"\nA seleccionado no buscar personas."<<endl;
-			  break;
+			break;
 		case 3:
-			  cout<<"\nInserte el rango que quiere buscar indicando dos matriculas"<<endl;
-			  int rangoI, rangoF;
-			  cout<<"Inserte matricula 1: "<<endl;
-			  cin>>rangoI;
-			  cout<<"Inserte matricula 2: "<<endl;
-			  cin>>rangoF;
-			  busqRangos(auxiliar, rangoI, rangoF);
-			  break;
+			cout<<"\nInserte el rango que quiere buscar indicando dos matriculas"<<endl;
+			int rangoI, rangoF;
+			cout<<"Inserte matricula 1: "<<endl;
+			cin>>rangoI;
+			cout<<"Inserte matricula 2: "<<endl;
+			cin>>rangoF;
+			busqRangos(auxiliar, rangoI, rangoF);
+			break;
 	}
 
 	/*Demostraci�n de funcionamiento en casos de prueba*/
