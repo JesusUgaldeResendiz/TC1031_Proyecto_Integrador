@@ -1,3 +1,9 @@
+/*
+ * Archivo: aplicacion2.h
+ * Creado: 19/11/2020
+ * Autor: Jesús Ugalde Reséndiz
+ * Descripción: Implementeción de la aplicación en una funcion principal.
+*/
 #ifndef APLICACION2_H_INCLUDED
 #define APLICACION2_H_INCLUDED
 
