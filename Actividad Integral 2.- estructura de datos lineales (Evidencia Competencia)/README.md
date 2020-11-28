@@ -1,4 +1,4 @@
-# **ACTIVIDAD INTEGRAL 2.- ESTRUCTURA DE DATOS LINEALES**
+## **ACTIVIDAD INTEGRAL 2.- ESTRUCTURA DE DATOS LINEALES**
 
 **Introducción**
 *Este trabajo consiste en utilizar la información de un grupo de personas, el cual pertenece a una universidad privada que recientemente a abierto sus puertas por lo cual cuenta con sistemas mal programados para realizar busquedas en sus alumnos. Se te pide que los ayudes a mejorar esta situación.
