@@ -1,4 +1,15 @@
 **ACTIVIDAD INTEGRAL 2.- ESTRUCTURA DE DATOS LINEALES**
+
 *Este trabajo consiste en utilizar la información de un grupo de personas, el cual pertenece a una universidad privada que recientemente a abierto sus puertas por lo cual cuenta con sistemas mal programados para realizar busquedas en sus alumnos. Se te pide que los ayudes a mejorar esta situación.
 Lo que a mi se me ocurrio para utilizar como solución fue el uso de estructuras de datos para agilizar el manejo de datos así como sus busquedas en alguna persona o en un rango determinado, esto ayudara a hacer las cosas más sencillas para la institución.
 Al proveernos un archivo en formato de bitacora o formato de logs llamado "register.txt" puede agruparse en los siguientes atributos: numero de lista / matricula / nombre / apellido paterno / apellido materno / carrera / semestre por lo cual podemos plantearnos el como seran los campos de datos a rellenar.*
+
+Creado el: 07/10/2020
+
+Corregido el: 20/11/2020
+
+Autor: Jesús Ugalde Reséndiz
+
+Lenguaje: C++
+
+Matería: TC1031
