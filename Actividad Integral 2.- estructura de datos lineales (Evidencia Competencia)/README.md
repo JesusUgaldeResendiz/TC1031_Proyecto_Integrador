@@ -1,4 +1,4 @@
-**ACTIVIDAD INTEGRAL 2.- ESTRUCTURA DE DATOS LINEALES**
+#**ACTIVIDAD INTEGRAL 2.- ESTRUCTURA DE DATOS LINEALES**
 
 **Introducción**
 *Este trabajo consiste en utilizar la información de un grupo de personas, el cual pertenece a una universidad privada que recientemente a abierto sus puertas por lo cual cuenta con sistemas mal programados para realizar busquedas en sus alumnos. Se te pide que los ayudes a mejorar esta situación.
@@ -19,6 +19,7 @@ Matería: TC1031
 
 Se mejoraron los casos de prueba, los cuales si estaban incluidos pero no implementados de la mejor manera, se realizo la mejora de busqueda por rango así como una correcta implementación de las mismas, con sus respectivos casos de excepción y por ultimo pero no menos importante, extendimos la descripción del programa además de agregar más detalles a la misma para un correcto entendimiento de lo que el programa realiza así como su contexto.
 
+
 **ANALISIS DE COMPLEJIDAD ALGORITMO/TEMPORAL POR ARCHIVO**
 
 **Archivo: exception.h**
@@ -31,6 +32,3 @@ Este archivo header igualmente solo es un archivo de apoyo, pues su función pri
 
 **Archivo: ordena.h**
 
-
-
-**Arvhivo**
