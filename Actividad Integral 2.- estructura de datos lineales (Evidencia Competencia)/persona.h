@@ -13,6 +13,7 @@
 
 using namespace std;
 
+/*Declaración de la clase persona*/
 class Persona {
 private:
   int numLista;
@@ -46,6 +47,7 @@ Persona::Persona(){
   semestre = " ";
 }
 
+/*Implementación de el constructor y destructor de los objetos Persona*/
 Persona::Persona(int numL, int enrollment, string name, string aP, string aM, string carrer, string semester){
   numLista = numL;
   matricula = enrollment;
@@ -58,6 +60,7 @@ Persona::Persona(int numL, int enrollment, string name, string aP, string aM, st
 
 Persona::~Persona(){}
 
+/*Implementación de los metodos getters de la clase Persona*/
 int Persona::getNumLista(){
   return numLista;
 }
@@ -86,6 +89,7 @@ string Persona::getSemestre(){
   return semestre;
 }
 
+/*Metodo que hace un muestreo de los atributos de la persona*/
 void Persona::mostrarPersona(){
   cout<<numLista<<" "<<matricula<<" "<<nombre<<" "<<apellidoP<<" "<<apellidoM<<" "<<carrera<<" "<<semestre<<endl;
 }
