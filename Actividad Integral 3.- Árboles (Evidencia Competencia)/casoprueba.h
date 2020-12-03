@@ -13,7 +13,7 @@
 #include "heapaux.h"
 
 void casosPrueba(Heap &tree){
-  std::cout<<"========================================================================="std::endl;
+  std::cout<<"========================================================================="<<std::endl;
   std::cout<<"\nCASOS DE PRUEBA"<<std::endl;
   std:cout<<"Bienvenido a los casos de prueba, usted visualizara su funcionamiento."<<std::endl;
   /*Caso correcto respetando rangos he indices*/
