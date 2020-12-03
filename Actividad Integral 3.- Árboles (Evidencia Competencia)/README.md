@@ -56,6 +56,7 @@ Posterior a la creación del nuevo archivo de texto ordenado tenemos entonces qu
 ***principal3:*** Para nuestro metodo principal3 podemos determinar su complejidad como lineal pues dentro de el posee un ciclo while en donde se esta introduciendo el flujo por medio de un recorrido al .txt de entrada y pesee a poseer un do while y varias sentencias if este no deja de ser de orden O(n).
 
 **Archivo: main.cpp**
+
 Este archivo fuente del proyecto unicamente lo que nos realiza es que corre la función principal3 la cual es pertenece a lecturas.h siendo entonces este de una complejidad igual a la del archivo ya antes mencionado, por lo cual su complejidad de main.cpp así como de la función principal int main() es de orden lineal, es decir O(n).
 
 
