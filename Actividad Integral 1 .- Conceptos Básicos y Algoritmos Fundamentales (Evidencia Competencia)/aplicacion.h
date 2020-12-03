@@ -1,8 +1,8 @@
 /*
  * Archivo: aplicacion.h
  * Creado: 19/11/2020
- * Autor: Jesús Ugalde Reséndiz
- * Descripción: Implementeción de la aplicación en una funcion principal.
+ * Autor: JesÃºs Ugalde ResÃ©ndiz
+ * DescripciÃ³n: ImplementeciÃ³n de la aplicaciÃ³n en una funcion principal.
 */
 
 #ifndef APLICACION_H_INCLUDED
@@ -33,13 +33,13 @@ void principal(){
   input.open("register.txt");
   if(input.is_open()){
     cout<<"Registrando y mostrando flujo de entrada\n"<<endl;
-    /*Entrada de flujo por medio de archivo txt. Uso del operador de entrada para flujo de datos ">>"*/
+    /*Entrada de flujo por medio de archivo .txt Uso del operador de entrada para flujo de datos ">>"*/
     while(input>>matricula>>nombre>>apellidoP>>apellidoM>>carrera>>semestre){
 
       /*Impresion del contenido de archivo*/
       cout<<matricula<<" "<<nombre<<" "<<apellidoP<<" "<<apellidoM<<" "<<carrera<<" "<<semestre<<endl;
 
-      /*Almacenamiento en el vector y en la variable auxiliar en iteración*/
+      /*Almacenamiento en el vector y en la variable auxiliar en iteraciÃ³n*/
       Persona tempPersona(matricula,nombre,apellidoP,apellidoM,carrera,semestre);
       auxiliar.push_back(tempPersona);
     }
@@ -67,15 +67,15 @@ void principal(){
     output.close();
 
     /*Algoritmos de busqueda de personas*/
-    cout<<"\nAhora que las personas han sido ordenadas �Quiere realizar una busqueda en particular?"<<endl;
-    cout<<"Presione:\n\n(1) S� \n(2) No \n(3) En caso de busqueda por rangos"<<endl;
+    cout<<"\nAhora que las personas han sido ordenadas ï¿½Quiere realizar una busqueda en particular?"<<endl;
+    cout<<"Presione:\n\n(1) Sï¿½ \n(2) No \n(3) En caso de busqueda por rangos"<<endl;
     int opcion; cin>>opcion;
     clock();
     switch(opcion){
     	case 1:
     		cout<<"\nInserte la matricula de la persona que desea buscar"<<endl;
     		int valor; cin>>valor;
-		    busqBinaria(auxiliar, valor);
+		    busqSequential(auxiliar, valor);
 		    break;
 		case 2:
 		    cout<<"\nA seleccionado no buscar personas."<<endl;
@@ -91,9 +91,9 @@ void principal(){
 			break;
 	}
 
-	/*Demostraci�n de funcionamiento en casos de prueba*/
+	/*Demostraciï¿½n de funcionamiento en casos de prueba*/
 	cout<<"\nAhora si quiere correr los casos de prueba presione 1"<<endl;
-	cout<<"Si estas conforme con el programa presione entonces 2"<<endl;
+	cout<<"Si estas conforme con el programa presione cualquier otra tecla"<<endl;
 	int cp;
 	cin>>cp;
 	if(cp == 1){
