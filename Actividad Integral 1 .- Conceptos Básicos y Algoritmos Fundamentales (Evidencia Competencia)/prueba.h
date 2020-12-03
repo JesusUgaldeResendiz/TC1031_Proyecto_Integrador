@@ -1,20 +1,21 @@
 /*
  * Archivo: pruebas.h
  * Creado: 19/11/2020
- * Autor: JesÃºs Ugalde ResÃ©ndiz
- * DescripciÃ³n: AquÃ­ estan los casos de prueba y la busqueda por rangos que se efectuaran en el programa.
+ * Autor: Jesús Ugalde Reséndiz
+ * Descripción: Aquí estan los casos de prueba y la busqueda por rangos que se efectuaran en el programa.
 */
 
 #ifndef PRUEBA_H_INCLUDED
 #define PRUEBA_H_INCLUDED
 
+#include <iostream>
 #include <vector>
 #include "persona.h"
 #include "ordena.h"
 
 using namespace std;
 
-/*Implementaciï¿½n de la busqueda por rangos en el programa, mientras no regrese texto significa que la busqueda a sido satisfactoria*/
+/*Implementaci�n de la busqueda por rangos en el programa, mientras no regrese mensajes de error significa que la busqueda a sido satisfactoria*/
 template <class T>
 bool busqRangos(std::vector<T> &v, int rangoI, int rangoF){
   /*Rango menor y rango mayor de busqueda no seran buscados*/
@@ -27,14 +28,18 @@ bool busqRangos(std::vector<T> &v, int rangoI, int rangoF){
   	cout<<"Lo sentimos no esta dentro del rango de busqueda"<<endl;
     return false;
   }
-  /*Caso correcto y al que deben de obedecer todos, si no lanza  al ningun mensaje de error se hizo de manera correcta y estas dentro del rango*/
-  if(rangoI >= 1214630 && rangoF <= 176532){
+  /*Caso correcto y al que deben de obedecer todos, si no lanza  al ningun mensaje de error y devuelve los alumnos del rango se hizo de manera correcta y estas dentro del rango*/
+  if(rangoI >= 1214630 && rangoF <= 1765532){
     cout<<"Usted se encuentra dentro del rango de busqueda"<<endl;
-    cout<<"A continuacion realizaremos la busqueda de los alumnos correspondientes del rango";
-    busqSequential(v, rangoI);
-    busqSequential(v,rangoF);
-    return true;
+    cout<<"A continuacion realizaremos la busqueda de los alumnos correspondientes del rango\n"<<endl;
+    cout<<"Los alumnos dentro del rango son: "<<endl;
+    for(int i = 0; i < v.size(); i++){
+    	if(v[i].getMatricula() >= rangoI && v[i].getMatricula() <=rangoF){
+    		v[i].mostrarPersona();
+		}
 	}
+	return true;
+  }
 
   else{
     return false;
