@@ -12,7 +12,7 @@ using namespace std;
 
 int main(){
 
-  /*Esta función sera la principal en esta actividad su implementación esta en aplicación.h*/
+   /*Esta función sera la principal en esta actividad su implementación esta en aplicación.h*/
   principal();
 
   return 0;
