@@ -1,8 +1,8 @@
 /*
  * Archivo: pruebas.h
  * Creado: 19/11/2020
- * Autor: Jesús Ugalde Reséndiz
- * Descripción: Aquí estan los casos de prueba y la busqueda por rangos que se efectuaran en el programa.
+ * Autor: JesÃºs Ugalde ResÃ©ndiz
+ * DescripciÃ³n: AquÃ­ estan los casos de prueba y la busqueda por rangos que se efectuaran en el programa.
 */
 
 #ifndef PRUEBA_H_INCLUDED
@@ -14,7 +14,7 @@
 
 using namespace std;
 
-/*Implementaci�n de la busqueda por rangos en el programa, mientras no regrese texto significa que la busqueda a sido satisfactoria*/
+/*Implementaciï¿½n de la busqueda por rangos en el programa, mientras no regrese texto significa que la busqueda a sido satisfactoria*/
 template <class T>
 bool busqRangos(std::vector<T> &v, int rangoI, int rangoF){
   /*Rango menor y rango mayor de busqueda no seran buscados*/
@@ -27,15 +27,15 @@ bool busqRangos(std::vector<T> &v, int rangoI, int rangoF){
   	cout<<"Lo sentimos no esta dentro del rango de busqueda"<<endl;
     return false;
   }
-  /*Caso correcto y al que deben de obedecer todos, si no regresa nada se hizo de manera correcta y estas dentro del rango*/
+  /*Caso correcto y al que deben de obedecer todos, si no lanza  al ningun mensaje de error se hizo de manera correcta y estas dentro del rango*/
   if(rangoI >= 1214630 && rangoF <= 176532){
     cout<<"Usted se encuentra dentro del rango de busqueda"<<endl;
     cout<<"A continuacion realizaremos la busqueda de los alumnos correspondientes del rango";
-    clock();
-    busqBinaria(v,rangoI);
-    busqBinaria(v,rangoF);
+    busqSequential(v, rangoI);
+    busqSequential(v,rangoF);
     return true;
-  }
+	}
+
   else{
     return false;
   }
