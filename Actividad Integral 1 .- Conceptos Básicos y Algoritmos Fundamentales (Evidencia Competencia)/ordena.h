@@ -1,8 +1,8 @@
 /*
  * Archivo: ordena.h
  * Creado: 19/11/2020
- * Autor: JesÃºs Ugalde ResÃ©ndiz
- * DescripciÃ³n: Este archivo posee los algoritmos de busqueda y ordenamiento asÃ­ como el temporizador del proyecto.
+ * Autor: Jesús Ugalde Reséndiz
+ * Descripción: Este archivo posee los algoritmos de busqueda y ordenamiento así como el temporizador del proyecto.
 */
 
 #ifndef ORDENA_H_INCLUDED
@@ -12,11 +12,11 @@
 #include <windows.h>
 #include "persona.h"
 
-/*Algoritmo de temporizador para aumentar estilo en el programa, el timer por asï¿½ decirlo es de 1.5 segundos el Sleep funciona en milisegundos */
+/*Algoritmo de temporizador para aumentar estilo en el programa, el timer por as� decirlo es de 0.5 segundos el Sleep funciona en milisegundos */
 void clock(){
 	 int acum = 0;
      while(acum < 3){
-     	Sleep(1500);
+     	Sleep(500);
         cout<<".";
         acum++;
     }
@@ -43,7 +43,7 @@ std::vector<T> bubbleSort(std::vector<T> &v){
   return v;
 }
 
-/*Algoritmo de busqueda binaria dependiente del atributo de matricula proveniente de la clase Persona*/
+/*Algoritmo de busqueda secuencial dependiente del atributo de matricula proveniente de la clase Persona*/
 template <class T>
 bool busqSequential(std::vector<T> &v, int value){
   if(value < 1214630 || value > 1765532){
