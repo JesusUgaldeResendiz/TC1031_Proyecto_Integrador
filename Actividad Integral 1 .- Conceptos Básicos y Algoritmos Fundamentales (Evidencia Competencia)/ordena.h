@@ -1,8 +1,8 @@
 /*
  * Archivo: ordena.h
  * Creado: 19/11/2020
- * Autor: Jesús Ugalde Reséndiz
- * Descripción: Este archivo posee los algoritmos de busqueda y ordenamiento así como el temporizador del proyecto.
+ * Autor: JesÃºs Ugalde ResÃ©ndiz
+ * DescripciÃ³n: Este archivo posee los algoritmos de busqueda y ordenamiento asÃ­ como el temporizador del proyecto.
 */
 
 #ifndef ORDENA_H_INCLUDED
@@ -12,7 +12,7 @@
 #include <windows.h>
 #include "persona.h"
 
-/*Algoritmo de temporizador para aumentar estilo en el programa, el timer por as� decirlo es de 1.5 segundos el Sleep funciona en milisegundos */
+/*Algoritmo de temporizador para aumentar estilo en el programa, el timer por asï¿½ decirlo es de 1.5 segundos el Sleep funciona en milisegundos */
 void clock(){
 	 int acum = 0;
      while(acum < 3){
@@ -45,25 +45,19 @@ std::vector<T> bubbleSort(std::vector<T> &v){
 
 /*Algoritmo de busqueda binaria dependiente del atributo de matricula proveniente de la clase Persona*/
 template <class T>
-int busqBinaria(std::vector<T> &v, int num){
-  int mid = 0;
-  int bot = 0;
-  int top = v.size() - 1;
-
-  while(bot <= top){
-    mid = (top + bot)/2;
-    if(num ==v[mid].getMatricula()){
-      return mid;
-    }
-    else if(num <= v[mid].getMatricula()){
-      top = mid -1;
-    }
-    else if(num >= v[mid].getMatricula()){
-      bot = mid + 1;
-    }
+bool busqSequential(std::vector<T> &v, int value){
+  if(value < 1214630 || value > 1765532){
+		std::cout<<"Valor fuera de rango, no hay ninguna persona acorde"<<std::endl<<std::endl;
+		return false;
+	}
+  for(int i = 0; i < v.size(); i++){
+  	if(value == v[i].getMatricula()){
+  		v[i].mostrarPersona();
+  		return true;
+	  }
   }
-
-  return bot -1;
+  std::cout<<"La persona no se encuentra en el grupo"<<std::endl;
+  return false;
 }
 
 #endif /*ORDENA_H_INCLUDED*/
