@@ -7,7 +7,7 @@ Lo que a mi se me ocurrio para utilizar como solución fue el uso de estructuras
 Al proveernos un archivo en formato de bitacora o formato de logs llamado "register.txt" puede agruparse en los siguientes atributos: matricula / nombre / apellido paterno / apellido materno / carrera / semestre por lo cual podemos plantearnos el como seran los campos de datos a rellenar.*
 
 
-**NOTA: Este archivo unicamente corre en una computadora con sistema operativo Windows, debido a la inclusión de la libreria <windows.h>, en caso de contar con otro borrar la función clock y mantener comentadas las lineas que lo incluyen. **
+**NOTA: Este archivo unicamente corre en una computadora con sistema operativo Windows, debido a la inclusión de la libreria <windows.h>, en caso de contar con otro borrar la función clock y mantener comentadas las lineas que lo incluyen.**
 
 Creado el: 21/09/2020
 
@@ -74,6 +74,7 @@ busqRangos(v, 1705935, 1706320);
 *Salidas / Output*
 
 Usted se encuentra dentro del rango de busqueda
+
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
 Los alumnos dentro del rango son:
@@ -99,6 +100,7 @@ busqRangos(v, 1706340, 1706424);
 *Salidas / Output*
 
 Usted se encuentra dentro del rango de busqueda
+
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
 Los alumnos dentro del rango son:
