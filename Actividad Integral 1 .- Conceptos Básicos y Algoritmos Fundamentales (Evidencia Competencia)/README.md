@@ -23,7 +23,7 @@ Matería: TC1031
 
 Se incluyo el main, el cual por cuestiones de red no se pudo subir al lado de algunas otras librerias incluidas en este proyecto, se utilizo un algortimo de ordenamiento más adecuado a la problematica, además de explicar el funcionamiento detallado del programa en el README.md, se agregaron casos de prueba así como una mejora general del pryecto entregado en un inicio.
 
-**ANALISIS DE COMPLEJIDAD ALGORITMO/TEMPORAL POR ARCHIVO**
+### **ANALISIS DE COMPLEJIDAD ALGORITMO/TEMPORAL POR ARCHIVO** ###
 
 **Archivo: persona.h**
 
