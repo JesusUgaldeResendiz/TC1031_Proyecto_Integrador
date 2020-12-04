@@ -78,11 +78,14 @@ Los alumnos dentro del rango son:
 Segundo caso: 1706340 y 1706424
 
 **Caso correcto respetando los rangos he indices**
+
 *Entradas / Inputs*
+
 cout<<"Segundo caso: "<<"1706340 y 1706424"<<endl;
 busqRangos(v, 1706340, 1706424);
 
 *Salidas / Output*
+
 Usted se encuentra dentro del rango de busqueda
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
@@ -92,17 +95,23 @@ Los alumnos dentro del rango son:
 
 
 **Caso equivoco por estar fuera de rango**
+
 *Entradas / Inputs*
+
 cout<<"Tercer caso: "<<"2220000 y 1806166"<<endl;
 busqRangos(v, 2220000, 1806166);
 
 *Salidas / Output*
+
 Lo sentimos no esta dentro del rango de busqueda
 
 **Caso equivoco por estar fuera de rango**
+
 *Entradas / Inputs*
+
 cout<<"Cuarto caso: "<<"1105632 y 1656432"<<endl;
 busqRangos(v, 1105632, 1856432);
 
 *Salidas / Output*
+
 Lo sentimos no esta dentro del rango de busqueda
