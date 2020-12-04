@@ -61,7 +61,7 @@ Este archivo fuente del proyecto unicamente lo que nos realiza es que corre la f
 
 ### Casos de prueba ###
 
-Los casos de prueba de este proyecto obedecen a la busqueda secuencial que se implemento en nuestra clase heap, es decir la función heapSearch que recibe el valor el cual se buscara dentro de nuestrp arbol Heap - Min.
+Los casos de prueba de este proyecto obedecen a la busqueda secuencial que se implemento en nuestra clase heap, es decir la función heapSearch que recibe el valor de entrada que va a ser la matricula a buscar la cual se buscara dentro de nuestro arbol Heap - Min y posterior a ello desplegara un resultado.
 
 ============================================================================================
 ***Primer caso: 1700001***
@@ -122,6 +122,7 @@ tree.heapSearch(175);
 *Salidas / Output*
 
 Tercer caso: 175
+
 Valor fuera de rango, no hay ninguna persona acorde
 
 ============================================================================================
