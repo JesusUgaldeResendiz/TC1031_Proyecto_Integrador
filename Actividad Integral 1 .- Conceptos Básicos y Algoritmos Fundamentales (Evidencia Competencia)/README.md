@@ -68,6 +68,7 @@ Para los casos de prueba se utilizara la busqueda por rangos, donde la entrada s
 *Entradas / Inputs*
 
 cout<<"Primer caso: "<<"1705935 y 1706320"<<endl;
+
 busqRangos(v, 1705935, 1706320);
   
 *Salidas / Output*
@@ -92,6 +93,7 @@ Los alumnos dentro del rango son:
 *Entradas / Inputs*
 
 cout<<"Segundo caso: "<<"1706340 y 1706424"<<endl;
+
 busqRangos(v, 1706340, 1706424);
 
 *Salidas / Output*
@@ -110,6 +112,7 @@ Los alumnos dentro del rango son:
 *Entradas / Inputs*
 
 cout<<"Tercer caso: "<<"2220000 y 1806166"<<endl;
+
 busqRangos(v, 2220000, 1806166);
 
 *Salidas / Output*
@@ -123,6 +126,7 @@ Lo sentimos no esta dentro del rango de busqueda
 *Entradas / Inputs*
 
 cout<<"Cuarto caso: "<<"1105632 y 1656432"<<endl;
+
 busqRangos(v, 1105632, 1856432);
 
 *Salidas / Output*
