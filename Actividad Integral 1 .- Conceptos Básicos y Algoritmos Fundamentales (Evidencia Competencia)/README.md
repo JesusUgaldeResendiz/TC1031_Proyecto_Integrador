@@ -58,3 +58,51 @@ Para esta entrega en la biblioteca aplicacion.h lo que se implementa es la funci
 Este es el archivo fuente del proyecto, unicamente la acción que realiza es que corre la función principal la cual es perteneciente a aplicacion.h siendo entonces este de una complejidad igual a la del archivo ya antes mencionado, por lo cual su complejidad de main.cpp así como de la función principal int main() es de orden lineal, es decir O(n) al depender de la función tipo void principal().
 
 ### Casos de prueba ###
+
+Para los casos de prueba se utilizara la busqueda por rangos, donde la entrada seran matriculas dentro de la base de datos, así como datos que no pertenecen a esta para así poder validar también los posibles errores por fuera de rango o en caso de que no se encuentre la Persona con la matricula de entrada.
+
+**Caso correcto respetando los rangos he indices**
+*Entradas / Inputs*
+cout<<"Primer caso: "<<"1705935 y 1706320"<<endl;
+busqRangos(v, 1705935, 1706320);
+  
+*Salidas / Output*
+Usted se encuentra dentro del rango de busqueda
+A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
+
+Los alumnos dentro del rango son:
+1705935 Oscar Delgadillo Ochoa IRS Tercero
+1706066 Santiago Santibañez Herrera ITC Tercero
+1706166 Emiliano Zapata Montes IRS Tercero
+1706320 Ismael Garcia Gónzalez IRS Tercero
+Segundo caso: 1706340 y 1706424
+
+**Caso correcto respetando los rangos he indices**
+*Entradas / Inputs*
+cout<<"Segundo caso: "<<"1706340 y 1706424"<<endl;
+busqRangos(v, 1706340, 1706424);
+
+*Salidas / Output*
+Usted se encuentra dentro del rango de busqueda
+A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
+
+Los alumnos dentro del rango son:
+1706340 Jesús Ugalde Reséndiz IRS Tercero
+1706424 Miguel Luna Vega IRS Tercero
+
+
+**Caso equivoco por estar fuera de rango**
+*Entradas / Inputs*
+cout<<"Tercer caso: "<<"2220000 y 1806166"<<endl;
+busqRangos(v, 2220000, 1806166);
+
+*Salidas / Output*
+Lo sentimos no esta dentro del rango de busqueda
+
+**Caso equivoco por estar fuera de rango**
+*Entradas / Inputs*
+cout<<"Cuarto caso: "<<"1105632 y 1656432"<<endl;
+busqRangos(v, 1105632, 1856432);
+
+*Salidas / Output*
+Lo sentimos no esta dentro del rango de busqueda
