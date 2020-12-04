@@ -61,12 +61,17 @@ Este es el archivo fuente del proyecto, unicamente la acción que realiza es que
 
 Para los casos de prueba se utilizara la busqueda por rangos, donde la entrada seran matriculas dentro de la base de datos, así como datos que no pertenecen a esta para así poder validar también los posibles errores por fuera de rango o en caso de que no se encuentre la Persona con la matricula de entrada.
 
+=======================================================================================================
+
 **Caso correcto respetando los rangos he indices**
+
 *Entradas / Inputs*
+
 cout<<"Primer caso: "<<"1705935 y 1706320"<<endl;
 busqRangos(v, 1705935, 1706320);
   
 *Salidas / Output*
+
 Usted se encuentra dentro del rango de busqueda
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
@@ -75,7 +80,8 @@ Los alumnos dentro del rango son:
 1706066 Santiago Santibañez Herrera ITC Tercero
 1706166 Emiliano Zapata Montes IRS Tercero
 1706320 Ismael Garcia Gónzalez IRS Tercero
-Segundo caso: 1706340 y 1706424
+
+=======================================================================================================
 
 **Caso correcto respetando los rangos he indices**
 
@@ -93,6 +99,7 @@ Los alumnos dentro del rango son:
 1706340 Jesús Ugalde Reséndiz IRS Tercero
 1706424 Miguel Luna Vega IRS Tercero
 
+=======================================================================================================
 
 **Caso equivoco por estar fuera de rango**
 
@@ -104,6 +111,8 @@ busqRangos(v, 2220000, 1806166);
 *Salidas / Output*
 
 Lo sentimos no esta dentro del rango de busqueda
+
+=======================================================================================================
 
 **Caso equivoco por estar fuera de rango**
 
