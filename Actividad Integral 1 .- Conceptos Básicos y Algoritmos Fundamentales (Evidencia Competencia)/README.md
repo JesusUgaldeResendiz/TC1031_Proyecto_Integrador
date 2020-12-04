@@ -76,9 +76,13 @@ Usted se encuentra dentro del rango de busqueda
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
 Los alumnos dentro del rango son:
+
 1705935 Oscar Delgadillo Ochoa IRS Tercero
+
 1706066 Santiago Santibañez Herrera ITC Tercero
+
 1706166 Emiliano Zapata Montes IRS Tercero
+
 1706320 Ismael Garcia Gónzalez IRS Tercero
 
 =======================================================================================================
