@@ -59,6 +59,103 @@ Posterior a la creación del nuevo archivo de texto ordenado tenemos entonces qu
 
 Este archivo fuente del proyecto unicamente lo que nos realiza es que corre la función principal3 la cual es pertenece a lecturas.h siendo entonces este de una complejidad igual a la del archivo ya antes mencionado, por lo cual su complejidad de main.cpp así como de la función principal int main() es de orden lineal, es decir O(n).
 
+### Casos de prueba ###
+
+Los casos de prueba de este proyecto obedecen a la busqueda secuencial que se implemento en nuestra clase heap, es decir la función heapSearch que recibe el valor el cual se buscara dentro de nuestrp arbol Heap - Min.
+
+============================================================================================
+***Primer caso: 1700001***
+
+**Caso correcto respetando los rangos he indices**
+
+*Entradas / Inputs*
+
+std::cout<<"Primer caso: "<<"1700001"<<std::endl;
+ 
+tree.heapSearch(1700001);
+
+  
+*Salidas / Output*
+
+Primer caso: 1700001
+
+La persona a sido encontrada, sus datos son los siguientes:
+
+1700001 Benjamin Valdes Aguirre ISC DIOS 100
+
+¡Busqueda realizada con exito!
+
+============================================================================================
+***Segundo caso: 1706424***
+
+**Caso correcto respetando rangos, entradas he indices**
+
+*Entradas / Inputs*
+
+std::cout<<"Segundo caso: "<<"1706424"<<std::endl;
+
+tree.heapSearch(1706424);
 
 
+*Salidas / Output*
 
+Segundo caso: 1706424
+
+La persona a sido encontrada, sus datos son los siguientes:
+
+1706424 Miguel Luna Vega IRS Tercero 100
+
+¡Busqueda realizada con exito!
+
+============================================================================================
+***Tercer caso: 175***
+
+**Caso erroneo debido al rango he indice inferior al esperado**
+
+*Entradas / Inputs*
+
+std::cout<<"Tercer caso: "<<"175"<<std::endl;
+
+tree.heapSearch(175);
+
+
+*Salidas / Output*
+
+Tercer caso: 175
+Valor fuera de rango, no hay ninguna persona acorde
+
+============================================================================================
+***Cuarto caso: 0216545***
+
+**Caso incorrecto debido a que esta fuera del indice y rango**
+
+*Entradas / Inputs*
+
+std::cout<<"Cuarto caso: "<<"0216545"<<std::endl;
+
+tree.heapSearch(0216545);
+
+
+*Salidas / Output*
+
+Cuarto caso: 0216545
+
+Valor fuera de rango, no hay ninguna persona acorde
+
+============================================================================================
+***Quinto caso: 1711111***
+
+**Caso incorrecto debido a que esta fuera del indice y rango**
+
+*Entradas / Inputs*
+
+std::cout<<"Quinto caso: "<<"1711111"<<std::endl;
+
+tree.heapSearch(1711111);
+
+
+*Salidas / Output*
+
+Quinto caso: 1711111
+
+No hay ninguna persona con esa matricula en la base de datos
