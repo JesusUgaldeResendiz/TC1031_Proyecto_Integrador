@@ -102,7 +102,9 @@ Usted se encuentra dentro del rango de busqueda
 A continuacion realizaremos la busqueda de los alumnos correspondientes del rango
 
 Los alumnos dentro del rango son:
+
 1706340 Jesús Ugalde Reséndiz IRS Tercero
+
 1706424 Miguel Luna Vega IRS Tercero
 
 ============================================================================================
