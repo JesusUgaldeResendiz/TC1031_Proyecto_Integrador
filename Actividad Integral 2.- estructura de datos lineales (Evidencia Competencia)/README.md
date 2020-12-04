@@ -6,7 +6,7 @@
 Lo que a mi se me ocurrio para utilizar como solución fue el uso de estructuras de datos de lista doblemente ligada para agilizar el manejo de datos así como sus busquedas en alguna persona o en un rango determinado, esto ayudara a hacer las cosas más sencillas para la institución.
 Al proveernos un archivo en formato de bitacora o formato de logs llamado "register.txt" puede agruparse en los siguientes atributos: numero de lista / matricula / nombre / apellido paterno / apellido materno / carrera / semestre por lo cual podemos plantearnos el como seran los campos de datos a rellenar.*
 
-**NOTA:** Este archivo unicamente corre en una computadora con sistema operativo Windows, debido a la inclusión de la libreria <windows.h>
+**NOTA: Este archivo unicamente corre en una computadora con sistema operativo Windows, debido a la inclusión de la libreria <windows.h> en casod de usar otro SO que no sea Windows, comentar la linea que lleve clock() y borrar la función así como la libreria.**
 
 Creado el: 07/10/2020
 
