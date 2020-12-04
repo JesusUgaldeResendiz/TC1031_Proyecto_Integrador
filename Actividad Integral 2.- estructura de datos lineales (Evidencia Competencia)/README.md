@@ -68,3 +68,115 @@ Para esta entrega en el header aplicacion2.h lo que se implementa es la función
 **Archivo: main.cpp**
 
 Este archivo unicamente lo que nos realiza es que corre la función principal2 la cual es proveniente del archivo aplicacion2.h siendo entonces este de una complejidad igual a la del archivo ya antes mencionado, por lo cual su complejidad de main.cpp así como de la función principal int main() es de orden lineal, es decir O(n).
+
+### Casos de prueba ###
+
+Para los casos de prueba se utilizara la busqueda por rangos, donde la entrada seran matriculas dentro de la base de datos, así como datos que no pertenecen a esta para así poder validar también los posibles errores por fuera de rango o en caso de que no se encuentre la Persona con la matricula de entrada.
+
+============================================================================================
+***Primer caso: 1 y 8***
+
+**Caso correcto respetando los rangos he indices**
+
+*Entradas / Inputs*
+
+cout<<"Primer caso: "<<"1 y 8"<<endl;
+
+dlist.searchRange(1,8);
+
+  
+*Salidas / Output*
+
+Primer caso: 1 y 8
+
+1 1700000 Pedro Pérez Murueta ISC DIOS
+
+2 1704063 Manuel Fortanelli Rios ITC Tercero
+
+3 1705935 Oscar Delgadillo Ochoa IRS Tercero
+
+4 1356202 Boromir Denethor Finduilas ISC Badass
+
+5 1704025 Jesús Enriquez Dorantes ITD Tercero
+
+6 1708189 Rodrigo Muñoz Guerrero ITC Tercero
+
+7 1703326 Mauricio Hernández Gónzalez ITD Tercero
+
+8 1365428 Antonio Ruíz Zapata ITD Tercero
+
+============================================================================================
+***Segundo caso: 12 y 25***
+
+**Caso correcto respetando los rangos he indices**
+
+*Entradas / Inputs*
+
+cout<<"Segundo caso: "<<"12 y 25"<<endl;
+
+dlist.searchRange(12,25);
+
+
+*Salidas / Output*
+
+Segundo caso: 12 y 25
+
+12 1214630 Arián Tello Cori IRS Tercero
+
+13 1706066 Santiago Santibañez Herrera ITC Tercero
+
+14 1706661 Froylan Luna Díaz ITC Tercero
+
+15 1708981 Jorge Campos Chavez IRS Tercero
+
+16 1706424 Miguel Luna Vega IRS Tercero
+
+17 1700001 Benjamin Valdes Aguirre ISC DIOS
+
+18 1706842 Juan Ortelli Chavez ITC Tercero
+
+19 1765532 Isaac Tello Chavez IRS Tercero
+
+20 1706328 Kevin Delgado Pérez IRS Tercero
+
+21 1706425 Alejandro Estrada Martinéz IRS Tercero
+
+22 1706320 Ismael Garcia Gónzalez IRS Tercero
+
+23 1706166 Emiliano Zapata Montes IRS Tercero
+
+24 1289519 Rafael Hinojosa Lopez ITC Tercero
+
+25 1706450 Manuel Neri Villeda IRS Tercero
+
+============================================================================================
+***Tercer caso: -2 y 18***
+
+**Caso equivoco por estar fuera de rango**
+
+*Entradas / Inputs*
+
+cout<<"Tercer caso: "<<"-2 y 18"<<endl;
+
+dlist.searchRange(-2,18);
+
+
+*Salidas / Output*
+
+Valores fuera del rango, lo sentimos
+
+============================================================================================
+***Cuarto caso: 25 y 5***
+
+**Caso equivoco por estar fuera de rango**
+
+*Entradas / Inputs*
+
+cout<<"Cuarto caso: "<<"25 y 5"<<endl;
+
+dlist.searchRange(25,5);
+
+
+*Salidas / Output*
+
+Lo sentimos el rango inicial no puede ser mayor que el rango final
