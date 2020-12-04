@@ -71,7 +71,7 @@ Este archivo unicamente lo que nos realiza es que corre la función principal2 l
 
 ### Casos de prueba ###
 
-Para los casos de prueba se utilizara la busqueda por rangos, donde la entrada seran matriculas dentro de la base de datos, así como datos que no pertenecen a esta para así poder validar también los posibles errores por fuera de rango o en caso de que no se encuentre la Persona con la matricula de entrada.
+Para los casos de prueba se utilizara la busqueda por rangos de la lista, donde la entrada seran los numeros de lista de cada registro en nuestra lista doblemente ligada dentro de la base de datos, así como datos que no pertenecen a esta para así poder validar también los posibles errores por fuera de rango o en caso de que no se encuentre la Persona con la matricula de entrada, así como las entradas no validas.
 
 ============================================================================================
 ***Primer caso: 1 y 8***
