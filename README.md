@@ -29,4 +29,4 @@ Se subio y entrego la actividad de manera correcta sin errores.
 
 Se subio y entrego la actividad de manera correcta sin errores.
 
-**Competencia:** Tecnologias de vanguardia *SEG0702A  *SICT0302B SICT0301B SICT0303B* 
+**Competencia:** Tecnologias de vanguardia *SEG0702A SICT0302B SICT0301B SICT0303B* 
