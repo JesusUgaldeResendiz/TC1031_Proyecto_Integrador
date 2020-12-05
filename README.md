@@ -14,7 +14,7 @@ Se incluyo el main, el cual por cuestiones de red no se pudo subir al lado de al
 Se mejoraron los casos de prueba, los cuales si estaban incluidos pero no implementados de la mejor manera, se realizo la mejora de busqueda por rango así como una correcta implementación de las mismas, con sus respectivos casos de excepción y por ultimo pero no menos importante, extendimos la descripción del programa además de agregar más detalles a la misma para un correcto entendimiento de lo que el programa realiza así como su contexto.
 
 
-**Competencia:** *SICT0302B SICT0301B SICT0303B* SICT0302B* 
+**Competencia:** *SICT0302B SICT0301B SICT0303B SICT0302B* 
 
 
 **Actividad Integral 3**
